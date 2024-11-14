@@ -15,8 +15,7 @@ public class Game {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
-	
+	private Long id;	
 	private String title;
 	
 	@Column(name = "game_year")
